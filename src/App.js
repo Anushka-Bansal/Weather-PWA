@@ -17,10 +17,11 @@ function App() {
     };
     return (
         <div className="main-container ">
+            <h1> Simple Weather App</h1>
             <input
                 type="text"
                 className="search"
-                placeholder="Search..."
+                placeholder="Search For a City.."
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 onKeyPress={search}

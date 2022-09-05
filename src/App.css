@@ -23,6 +23,10 @@ body,
     flex-direction: column;
 }
 
+.main-container h1 {
+    color: rgba(250, 250, 250, 0.85);
+}
+
 .search {
     outline: none;
     padding: 20px 7%;
